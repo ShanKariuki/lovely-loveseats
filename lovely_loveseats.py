@@ -34,7 +34,7 @@ customer_one_itemization+=lovely_loveseat_description+luxurious_lamp_description
 #calculating sales task
 customer_one_tax = 0
 customer_one_tax += customer_one_total * sales_tax
-
+#updating customer total
 customer_one_total+=customer_one_tax
 
 #printing out the receipt
